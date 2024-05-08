@@ -1,5 +1,9 @@
 # DS_ProjectFinal
 
+
+
+
+
 Resumen de EDA
 Para este trabajo, se utilizará el EDA para conocer las bases del mercado en cuestión, conocer las principales características de oferta y demanda, así como las preferencias del usuario. Asimismo, el EDA nos traerá una idea para la definición del objetivo global del proyecto. A través de este análisis exploratorio de datos, se consolida la definición de:
 objetivo y alcance
