@@ -2,6 +2,9 @@
 
 ##  Contexto general del trabajo
 
+El trabajo constituye una propuesta real de solución a un problema real de la industria. En particular, se define un sistema de recomendación como producto final que utiliza técnicas de machine learning. La industria a aplicar este sistema es el conjunto de restaurantes y bares de Estados Unidos. 
+
+Se utilizará como información de entrada a los usuarios, locales y reseñas registradas en los datasets brindadados de YELP y GOOGLE. Se apunta a un tipo de cliente que tiene un perfil de propietario y/o directivo de restaurantes y bares, cuyo interés es obtener información clave sobre las tendencias e intereses de los clientes del sector, con el propósito de que ésta sirva como input para sus proyectos y estrategias que mejoren el desempeño de su marca.
 
 
 ## Contenidos y estructura
@@ -41,8 +44,6 @@ Entregables del Sprint 01:
     * Esquema de trabajo
     * Stack tecnológico
 * EDA (Exploratory Data Analysis) o Análisis exploratorio de datos
-
-
 
 ## Resumen de Sprint 02
 
