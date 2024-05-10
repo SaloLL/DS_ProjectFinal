@@ -7,15 +7,12 @@ El trabajo constituye una propuesta real de solución a un problema real de la i
 Se utilizará como información de entrada a los usuarios, locales y reseñas registradas en los datasets brindadados de YELP y GOOGLE. Se apunta a un tipo de cliente que tiene un perfil de propietario y/o directivo de restaurantes y bares, cuyo interés es obtener información clave sobre las tendencias e intereses de los clientes del sector, con el propósito de que ésta sirva como input para sus proyectos y estrategias que mejoren el desempeño de su marca.
 
 ## Contenidos y estructura
-* Sprint 01. Puesta en Marcha: Definición del proyecto y análisis exploratorio de datos
-Entregables: 
+* Sprint 01. Puesta en Marcha: Definición del proyecto y análisis exploratorio de datos. Entregables: 
     * Charter del proyecto (incluye fundamentos del proyecto, stack tecnológico y flujo de trabajo, Alcance, objetivo, entregables)
     * EDA (Exploratory Data Analysis)
-* Sprint 02. Data Engineeering: Implementación de estructura de datos
-Entregables: 
+* Sprint 02. Data Engineeering: Implementación de estructura de datos. Entregables: 
     * Reporte de Data Analytics y producto Machine Learning
-* Sprint 03. Data Analytics & Machine Learning: Desarrollo final de la herramienta de análisis de la información y el producto de Machine Learning.
-Entregables:
+* Sprint 03. Data Analytics & Machine Learning: Desarrollo final de la herramienta de análisis de la información y el producto de Machine Learning. Entregables:
     * Dashboard final
     * Producto ML
 
