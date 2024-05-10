@@ -28,9 +28,6 @@ Para la realización del EDA, se realiza en forma previa la fase de ETL (Extract
 * DS_PjFinal_google1_sites
 * DS_PjFinal_google2_reviews
 * DS_PjFinal_ETL_SitesUniques
-
-![Texto alternativo](DataStructureSimple.png)
-
 	
 La estructura general y contenido propuesto para cada parte del EDA consiste en:
 * Importación de librerías
@@ -47,6 +44,13 @@ Entregables del Sprint 01:
     * Esquema de trabajo
     * Stack tecnológico
 * EDA (Exploratory Data Analysis) o Análisis exploratorio de datos
+
+Estructura de datos simplificada
+![Texto alternativo](DataStructureSimple.png)
+
+Estrucura de datos completa
+
+
 
 ## Resumen de Sprint 02
 
