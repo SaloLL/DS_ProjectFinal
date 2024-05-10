@@ -49,6 +49,7 @@ Estructura de datos simplificada
 ![Texto alternativo](DataStructureSimple.png)
 
 Estrucura de datos completa
+![Texto alternativo](DataStructureComplete.png)
 
 
 
