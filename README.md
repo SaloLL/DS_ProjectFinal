@@ -28,6 +28,8 @@ Para la realización del EDA, se realiza en forma previa la fase de ETL (Extract
 * DS_PjFinal_google1_sites
 * DS_PjFinal_google2_reviews
 * DS_PjFinal_ETL_SitesUniques
+
+/Users/Juan/Documents/GitHub/DS_ProjectFinal/DataStructureSimple.png
 	
 La estructura general y contenido propuesto para cada parte del EDA consiste en:
 * Importación de librerías
