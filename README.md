@@ -61,16 +61,34 @@ Estrucura de datos completa
 Esta etapa consiste en la instalación, adecuación y desarrollo de una infraestructura de datos en un Data Warehouse. El proceso de ETL se presenta a través de un pipeline que contempla la carga incremental de datos. La plataforma seleccionada para esta tarea es Google Cloud Platform, en donde se utilizan los servicios de:
 * Cloud storage
 * Conexión a APIs
-* Big queries
+* Big query
 * Data analysis
 
 Se presenta una estructura propuesta de entidad-relaciones entre las tablas utilizadas, y asimismo un diccionario de datos. Estos formatos están sujetos a cambios si así lo requieren en el futuro, y constituyen la base para el producto final de dashboard a presentar en el Sprint 3.
-  
-Luego se presenta la estructura del datawarehouse en donde se muestran los procesamientos y las fases de estos procesos. Estos diagramas consisten en el centro del sprint en cuestión, pues proporcionana los detalles para el entendimiento del flujo de información. 
+
+<img width="750" alt="image" src="https://github.com/Batxa/DS_ProjectFinal/assets/17538681/aece97df-3521-4543-939c-3646ec21a087">
+
+<img width="776" alt="image" src="https://github.com/Batxa/DS_ProjectFinal/assets/17538681/f25fd263-5f58-4ef0-876a-6c88d725795e">
+
+
+Luego se presenta la estructura del datawarehouse en donde se muestran los procesamientos y las fases de estos procesos. Estos diagramas consisten en el centro del sprint en cuestión, pues proporcionana los detalles para el entendimiento del flujo de información. La transformación de datos se ha dividido en dos fases, contemplando los siguientes puntos:
+
+* La capacidad de procesamiento del dataset completo antes de pasar por las transformaciones. 
+* La reducción de costos de infraestructura en la nube (Google Cloud). 
+* La capacidad para poder realizar cambios a la transformación de los datos preprocesados, sin la necesidad de que vuelvan a pasar por todo el proceso de limpieza.
+
 
 <img width="796" alt="image" src="https://github.com/Batxa/DS_ProjectFinal/assets/17538681/cc498414-363f-4e5c-9015-02b3e86a1bad">
 
-Finalmente se presenta un MVP para el producto de machine learning. El mismo consiste en un sistema de recomendación de restaurantes basado en las reseñas de los usuarios. Las herramientas para su desarrollo han sido Scikit-Learn, NLKT, Fuzzywuzzy, y Streamlit. El sistema contempla el ingreso de inputs por parte del cliente y la obtención de outputs. A través de la selección de sus preferencias, el cliente obtiene una recomendación de restaurantes basado en las mismas.
+<img width="796" alt="image" src="https://github.com/Batxa/DS_ProjectFinal/assets/17538681/b43ca194-463e-4d61-bc9c-dc8fb51ea2e0">
+
+<img width="796" alt="image" src="https://github.com/Batxa/DS_ProjectFinal/assets/17538681/bd382558-8134-4b96-ac7c-dff619162e40">
+
+
+Finalmente se presenta un MVP para el producto de machine learning. El mismo consiste en un sistema de recomendación de restaurantes basado en la comparaciòn de las reseñas de un usuario con las de los otros usuarios registrados en el sistema. Mediante tècnicas de Machine Learning, determina cuales son los usuarios con gustos más parecidos, y en base a esta similitud le recomienda uno (o mas restaurantes) de cualquier categorìa o de sòlo una categorìa especificada por el usuario. El sistema contempla el ingreso de inputs por parte del cliente y la obtención de outputs. A través de la selección de sus preferencias, el cliente obtiene una recomendación de restaurantes basado en las mismas. Las herramientas para su desarrollo han sido Scikit-Learn, NLKT, Fuzzywuzzy, y Streamlit.
+
+<img width="328" alt="image" src="https://github.com/Batxa/DS_ProjectFinal/assets/17538681/798c376d-e93f-43ff-9549-672f76fa6423">
+
 
 Entregables del Sprint 02:
 * Reporte de Data Engineering
