@@ -94,5 +94,14 @@ Entregables del Sprint 02:
 * Reporte de Data Engineering
 
 ## Resumen de Sprint 03
+En el desarrollo del tercer y último sprint del Proyecto, se resolvieron los entregables finales del proyecto, cumpliendo con los hitos establecidos en el esquema inicial de Trello, a saber:
+* Diseño del Dashboard
+* Diseño de Reportes
+* Diseño de StoryTelling
+* Producto ML
+* Ajustes al modelo
+* Entregable Final
+* Documentación
+* DEMO 3
 
 
