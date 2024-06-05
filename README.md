@@ -106,7 +106,8 @@ En el desarrollo del tercer y último sprint del Proyecto, se resolvieron los en
 
 
 El entregable dashboard se encuentra actualizado con los datos que reposan en el Bigg Query de la nube:
-La primera página es un resumen del proyecto, que incluye las conclusiones más importantes del mismo, que son los KPI con vista de velocímetro en la parte superior, que permite una lectura rápida de la situación. Se encuentra alojado en
+La primera página es un resumen del proyecto, que incluye las conclusiones más importantes del mismo, que son los KPI con vista de velocímetro en la parte superior, que permite una lectura rápida de la situación. Se encuentra alojado en Looker, en el siguiente Link:
+
 https://lookerstudio.google.com/reporting/d89b639c-7877-4d8b-94d9-312b5c177cd2/page/p_6bmjritshd
 
 
