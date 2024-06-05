@@ -110,8 +110,9 @@ La primera página es un resumen del proyecto, que incluye las conclusiones más
 
 https://lookerstudio.google.com/reporting/d89b639c-7877-4d8b-94d9-312b5c177cd2/page/p_6bmjritshd
 
+https://github.com/Batxa/DS_ProjectFinal/blob/main/Pag1_Dashboard.png
 
-
+![Dashboard_pag1](imagenes/grafica.png)
 
 
 
