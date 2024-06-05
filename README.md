@@ -125,3 +125,9 @@ Para este caso en particular, los KPI definidos son:
 	
 * KPI3 – Positive Reviews:  Superar el millón de reviews acumuladas positivas en el último quarter.
 
+También se presenta en la primera página del dashoard la gráfica que compara el progreso de los checkins y los reviews, evidenciando que desde el 2011 se cuenta con la información de las referencias de los usuarios que aumentan significativamente año a año, y que hasta el año 2019 refiere que, alrededor del 30% de los visitantes, incluyen sus reseña en la aplicación.
+
+Al costado izquierdo, se observa el resúmen de la información existente en el Big Query, lo que da una puena perspectiva del análisis general que se visualiza en el Dashboard. 
+Finalmente, en el margen izquierdom se pueden observar los enlaces que analizan los datos particulares de la data así:
+
+
