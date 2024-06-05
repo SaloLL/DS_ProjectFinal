@@ -131,3 +131,12 @@ Al costado izquierdo, se observa el resúmen de la información existente en el 
 Finalmente, en el margen izquierdom se pueden observar los enlaces que analizan los datos particulares de la data así:
 
 ![Texto alternativo](Pag2_Dashboard.png)
+
+Fnalmente, el último enlace del dashboard, dirige a la página donde se analizan las locaciones ralacionadas con el análisis que en ese momento se este desarrollando con el cliente así:
+
+![Texto alternativo](Pag3_Dashboard.png)
+
+
+
+
+
