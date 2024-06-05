@@ -112,7 +112,16 @@ https://lookerstudio.google.com/reporting/d89b639c-7877-4d8b-94d9-312b5c177cd2/p
 
 ![Texto alternativo](Pag1_Dashboard.png)
 
+De los servicios más útiles que prestará la consultoría realizada por SMART CHOICE ANALYTICS es la definición, cálculo y análisis de los indicadores de gestión,  ya que siempre se diseñarán con la metodología SMART; serán específicos, medibles, alcanzables y con un tiempo definido.
+
+Para este caso en particular, los KPI definidos son:
+
+* KPI1 - Checkins:  Aumentar en 5% los checkins respecto al mismo período del año anterior.
+  
 
 
+* KPI2- Reviews:  Aumentar en un 20% las reviews acumuladas con respecto al mismo período del año anterior
 
+	
+* KPI3 – Positive Reviews:  Superar el millón de reviews acumuladas positivas en el último quarter.
 
