@@ -130,4 +130,4 @@ También se presenta en la primera página del dashoard la gráfica que compara 
 Al costado izquierdo, se observa el resúmen de la información existente en el Big Query, lo que da una puena perspectiva del análisis general que se visualiza en el Dashboard. 
 Finalmente, en el margen izquierdom se pueden observar los enlaces que analizan los datos particulares de la data así:
 
-![Texto alternativo](Pag_2_Dashboard.png)
+![Texto alternativo](Pag2_Dashboard.png)
