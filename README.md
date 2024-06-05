@@ -104,12 +104,14 @@ En el desarrollo del tercer y último sprint del Proyecto, se resolvieron los en
 * Documentación
 * DEMO 3
 
-El Dashboard se encuentra cargado en el enlace 
 
-https://www.ejemplo.com](https://lookerstudio.google.com/reporting/d89b639c-7877-4d8b-94d9-312b5c177cd2/page/p_6bmjritshd/edit
+El entregable dashboard se encuentra actualizado con los datos que reposan en el Bigg Query de la nube:
+La primera página es un resumen del proyecto, que incluye las conclusiones más importantes del mismo, que son los KPI con vista de velocímetro en la parte superior, que permite una lectura rápida de la situación. Se encuentra alojado en
+https://lookerstudio.google.com/reporting/d89b639c-7877-4d8b-94d9-312b5c177cd2/page/p_6bmjritshd
 
 
-Este dashboard se encuentra actualizado con los datos que reposan en el Bigg Query de la nube:
-La primera página es un resumen del proyecto, que incluye las conclusiones más importantes del mismo, que son los KPI con vista de velocímetro en la parte superior, que permite una lectura rápida de la situación.
 
-Para más detalles, consulta la [documentación oficial](https://www.ejemplo.com/docs).
+
+
+
+
