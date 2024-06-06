@@ -170,16 +170,44 @@ El sistema permite al usuario ingresar y seleccionar los siguientes paramètros 
 3. El estado donde desea la recomendaciòn - Disponible: todos los estados de Estados Unidos 
 4. La categoría de restaurantes en la que desea la recomendaciòn - Disponible: todas las categorías y la opción All (recomienda sin discriminar la categorìa)     
 
-![Texto alternativo](Datos_entrada.png)
 
 *Datos de Salida*:
 
 1. Nombre(s) de restaurantes recomendados y para cada uno muestra:
 La categoría del restaurante
 Una reseña - imprime a manera de muestra la reseña que obtiene el mayor puntaje positivo obtenido con un algoritmo de anàlisis de sentimiento 
-Rating - el puntaje otorgado al restaurante por el cliente que emitiò la reseña mostrada 
+Rating - el puntaje otorgado al restaurante por el cliente que emitiò la reseña mostrada
+
+*Caso de uso*:
+
+Valores de entrada:
+cliente_id = '108178792843407619493'
+número de recomendaciones: 3
+estado: California
+categoria: Seafood restaurant
 
  ![Texto alternativo](Datos_salida.png)
+
+ Salida obtenida:
+
+Restaurantes recomendados:
+
+1. Mariscos El Picosito:
+Categoria: Seafood restaurant
+
+Muestra de Reseña: Simply one of the best fresh seafood restaurants in the area. Lunch or dinner or late night what a great place to end up. I love the quesadillas del maez. Fish tacos always on my list. I visit this place at least a few times a week. Fortunately since moving into a building they have raised their level of production and have not lost any flavor. Every item on the menu is a taste delight. Aguachillies are a exceptional treat. This is not your normal mexican restaurant. I highly recommend the ceviechie. Seafood marinated in lime juice and onions, and a little secret spice to keep you coming back. Get ready for a mouth watering experience! Rating: 5
+
+2. The Jetty Restaurant:
+Categoria: Seafood restaurant
+
+Muestra de Reseña: Very fine services great fish &chips my wife was pleased having the fresh Alaskan halibut nice atmosphere takes you back in time about how fish were caught what they had to go through to get them all in all real nice place only other thing you needed was the fog horns in the background Rating: 5
+
+3. THE SEAFOOD BAR:
+Categoria: Seafood restaurant
+
+Muestra de Reseña: Fav fish place.Clean and food very good.Nice atmosphere.Servers very courteous. Rating: 5
+
+ ![Texto alternativo](Datos_entrada.png)
 
 
 
