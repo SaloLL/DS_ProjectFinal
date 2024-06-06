@@ -163,6 +163,7 @@ El algoritmo de recomendación se desarrolló en Python utilizando la biblioteca
 
 
 *Datos de Entrada*:
+
 El sistema permite al usuario ingresar y seleccionar los siguientes paramètros para pedir la recomendación:
 1. Identificador ùnico del usuario en la base de datos
 2. El número de recomendaciones que desea - Disponible: de 1 al 10
@@ -170,6 +171,7 @@ El sistema permite al usuario ingresar y seleccionar los siguientes paramètros 
 4. La categoría de restaurantes en la que desea la recomendaciòn - Disponible: todas las categorías y la opción All (recomienda sin discriminar la categorìa)     
 
 *Datos de Salida*:
+
 1. Nombre(s) de restaurantes recomendados y para cada uno muestra:
 La categoría del restaurante
 Una reseña - imprime a manera de muestra la reseña que obtiene el mayor puntaje positivo obtenido con un algoritmo de anàlisis de sentimiento 
