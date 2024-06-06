@@ -179,7 +179,7 @@ La categoría del restaurante
 Una reseña - imprime a manera de muestra la reseña que obtiene el mayor puntaje positivo obtenido con un algoritmo de anàlisis de sentimiento 
 Rating - el puntaje otorgado al restaurante por el cliente que emitiò la reseña mostrada 
 
- 
+ ![Texto alternativo](Datos_salida.png)
 
 
 
