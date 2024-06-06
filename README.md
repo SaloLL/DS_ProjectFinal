@@ -170,6 +170,8 @@ El sistema permite al usuario ingresar y seleccionar los siguientes paramètros 
 3. El estado donde desea la recomendaciòn - Disponible: todos los estados de Estados Unidos 
 4. La categoría de restaurantes en la que desea la recomendaciòn - Disponible: todas las categorías y la opción All (recomienda sin discriminar la categorìa)     
 
+![Texto alternativo](Datos_entrada.png)
+
 *Datos de Salida*:
 
 1. Nombre(s) de restaurantes recomendados y para cada uno muestra:
