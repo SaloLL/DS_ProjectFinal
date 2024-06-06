@@ -186,7 +186,7 @@ número de recomendaciones: 3
 estado: California
 categoria: Seafood restaurant
 
- ![Texto alternativo](Datos_salida.png)
+ ![Texto alternativo](Datos_entrada.png)
 
  Salida obtenida:
 
@@ -207,7 +207,7 @@ Categoria: Seafood restaurant
 
 Muestra de Reseña: Fav fish place.Clean and food very good.Nice atmosphere.Servers very courteous. Rating: 5
 
- ![Texto alternativo](Datos_entrada.png)
+ ![Texto alternativo](Datos_salida.png) 
 
 
 
