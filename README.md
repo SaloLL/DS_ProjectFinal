@@ -139,7 +139,7 @@ Fnalmente, el último enlace del dashboard, dirige a la página donde se analiza
 ### Machine Learning (MVP)
 #### Sistema de Recomendación de Restaurantes
 
-Principio de Funcionamiento
+\_Principio de Funcionamiento\_ 
 El Sistema se basa la comparaciòn de las reseñas de un usuario con las de los otros usuarios registrados en el sistema y, mediante tècnicas de Machine Learning, determina cuales son los usuarios con gustos más parecidos, y en base a esta similitud le recomienda uno (o mas restaurantes) de cualquier categorìa o de sòlo una categorìa especificada por el usuario.
 
 Herramientas de Desarrollo
