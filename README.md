@@ -104,7 +104,7 @@ En el desarrollo del tercer y último sprint del Proyecto, se resolvieron los en
 * Documentación
 * DEMO 3
 
-
+###  Dashboard
 El entregable dashboard se encuentra actualizado con los datos que reposan en el Bigg Query de la nube:
 La primera página es un resumen del proyecto, que incluye las conclusiones más importantes del mismo, que son los KPI con vista de velocímetro en la parte superior, que permite una lectura rápida de la situación. Se encuentra alojado en Looker, en el siguiente Link:
 
@@ -136,6 +136,78 @@ Fnalmente, el último enlace del dashboard, dirige a la página donde se analiza
 
 ![Texto alternativo](Pag3_Dashboard.png)
 
+### Machine Learning (MVP)
+#### Sistema de Recomendación de Restaurantes
+
+*Principio de Funcionamiento*
+
+El Sistema se basa la comparaciòn de las reseñas de un usuario con las de los otros usuarios registrados en el sistema y, mediante tècnicas de Machine Learning, determina cuales son los usuarios con gustos más parecidos, y en base a esta similitud le recomienda uno (o mas restaurantes) de cualquier categorìa o de sòlo una categorìa especificada por el usuario.
+
+*Herramientas de Desarrollo*
+
+El algoritmo de recomendación se desarrolló en Python utilizando la biblioteca open-source de Machine Learning Scikit-learn, y principalmente hace uso de dos de sus funciones TfidfVectorizer y Cosine_similarity. Adicionalmente, se utilizaron las bibliotecas de Python NLTK/SentimentIntensityAnalyzer para el análisis de sentimientos de las reseñas y fuzzywuzzy para la homologaciòn de las categorías, y finalmente Streamlit para el desarrollo de la la interfaz web interactiva.
+
+-Scikit-learn 
+
+-TfidfVectorizer: se utilizó para el procesamiento de lenguaje natural (NLP) para transformar el texto de las reseñas en vectores nùmericos que fueron utilizadas en el algoritmo de similitud.
+
+-Cosine_similarity: se utilizó para calcular la similitud (mediante el algoritmo de la similitud del coseno) entre todos los vectores numéricos que representan las reseñas de los usuarios.
+
+-NLTK (Natural Language Toolkit)
+
+-SentimentIntensityAnalyzer: se utilizó para evaluar el tono emocional de las reseñas y obtener una puntuación de sentimiento que refleja la positividad, negatividad, neutralidad del sentimiento expresado en las reseñas.
+
+-Fuzzywuzzy: se utilizó para comparar las categorías de ambos set de datos, Google y Yelp, y obtener una puntuación de similitud que va del 0% al 100%, donde una puntuación del 100% indica que las cadenas son idénticas; esto se hizo para generar un listado reducido y estandarizado de categorías 
+
+-Streamlit: se utilizó para crear interfaz web interactiva que permite el ingreso de los datos y las selecciones de los usuarios y mostrar el resultado del sistema de recomendaciòn  
+
+
+*Datos de Entrada*:
+
+El sistema permite al usuario ingresar y seleccionar los siguientes paramètros para pedir la recomendación:
+1. Identificador ùnico del usuario en la base de datos
+2. El número de recomendaciones que desea - Disponible: de 1 al 10
+3. El estado donde desea la recomendaciòn - Disponible: todos los estados de Estados Unidos 
+4. La categoría de restaurantes en la que desea la recomendaciòn - Disponible: todas las categorías y la opción All (recomienda sin discriminar la categorìa)     
+
+
+*Datos de Salida*:
+
+1. Nombre(s) de restaurantes recomendados y para cada uno muestra:
+La categoría del restaurante
+Una reseña - imprime a manera de muestra la reseña que obtiene el mayor puntaje positivo obtenido con un algoritmo de anàlisis de sentimiento 
+Rating - el puntaje otorgado al restaurante por el cliente que emitiò la reseña mostrada
+
+*Caso de uso*:
+
+Valores de entrada:
+cliente_id = '108178792843407619493'
+número de recomendaciones: 3
+estado: California
+categoria: Seafood restaurant
+
+ ![Texto alternativo](Datos_entrada.png)
+
+ Salida obtenida:
+
+Restaurantes recomendados:
+
+1. Mariscos El Picosito:
+Categoria: Seafood restaurant
+
+Muestra de Reseña: Simply one of the best fresh seafood restaurants in the area. Lunch or dinner or late night what a great place to end up. I love the quesadillas del maez. Fish tacos always on my list. I visit this place at least a few times a week. Fortunately since moving into a building they have raised their level of production and have not lost any flavor. Every item on the menu is a taste delight. Aguachillies are a exceptional treat. This is not your normal mexican restaurant. I highly recommend the ceviechie. Seafood marinated in lime juice and onions, and a little secret spice to keep you coming back. Get ready for a mouth watering experience! Rating: 5
+
+2. The Jetty Restaurant:
+Categoria: Seafood restaurant
+
+Muestra de Reseña: Very fine services great fish &chips my wife was pleased having the fresh Alaskan halibut nice atmosphere takes you back in time about how fish were caught what they had to go through to get them all in all real nice place only other thing you needed was the fog horns in the background Rating: 5
+
+3. THE SEAFOOD BAR:
+Categoria: Seafood restaurant
+
+Muestra de Reseña: Fav fish place.Clean and food very good.Nice atmosphere.Servers very courteous. Rating: 5
+
+ ![Texto alternativo](Datos_salida.png) 
 
 
 
