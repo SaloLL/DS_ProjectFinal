@@ -1,0 +1,4 @@
+scipy
+vaderSentiment
+pyarrow
+google-cloud
